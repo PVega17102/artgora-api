@@ -1,0 +1,24 @@
+### Get all
+GET http://localhost:3001/artists
+
+### Get one
+GET http://localhost:3001/artists/66209ed1ac8eab65c3cf4d52
+
+### Login
+POST http://localhost:3001/auth/signin HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "is.paulvega.17102@gmail.com",
+    "password": "Altf4menosf5+"
+}
+
+### Change password
+PATCH http://localhost:3001/auth/66224aa4cf7e41f8cea0ea3c HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "is.paulvega.17102@gmail.com",
+    "password": "Altf4menosf5+",
+    "oldPassword": "Altf4menosf5"
+}
