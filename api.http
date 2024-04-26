@@ -22,3 +22,12 @@ Content-Type: application/json
     "password": "Altf4menosf5+",
     "oldPassword": "Altf4menosf5"
 }
+
+### Get random artist
+GET http://localhost:3001/artists/random
+
+### Get random images
+GET http://localhost:3001/imagenes/random
+
+### Get all image by artist
+GET http://localhost:3001/imagenes/expositor/6627776b6a528a29d73a1b5b
