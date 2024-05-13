@@ -31,3 +31,6 @@ GET http://localhost:3001/imagenes/random
 
 ### Get all image by artist
 GET http://localhost:3001/imagenes/expositor/6627776b6a528a29d73a1b5b
+
+### Get all events
+GET http://localhost:3001/events
